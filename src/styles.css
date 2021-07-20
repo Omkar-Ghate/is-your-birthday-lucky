@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Otomanopee+One&family=Roboto+Slab&family=Roboto:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --heading-color: #ea2027;
+  --primary-color: #b71540;
+  --secondary-color: #006266;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: auto;
+  width: 100%;
+}
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleOfPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 10rem;
+  color: whitesmoke;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}
+.titleOfPage h1 {
+  margin-bottom: 0;
+  font-family: "Otomanopee One", sans-serif;
+  color: #eb4d4b;
+}
+.titleOfPage a {
+  border: 2px solid #eb4d4b;
+  border-radius: 0.5rem;
+  margin: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  display: block;
+  color: #ea2027;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.titleOfPage a:hover {
+  background-color: #ea2027;
+  color: white;
+  border: 2px solid white;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 1rem;
+  background: url(https://images.pexels.com/photos/1303097/pexels-photo-1303097.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#alertBox {
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b71540;
+  color: black;
+  border: 1px transparent;
+  border-radius: 0.5rem;
+}
+
+.notice {
+  font-size: 1rem;
+  padding: 1rem 0;
+  color: white;
+}
+
+.label {
+  padding: 1rem 0rem 0.5rem;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+input {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: 0px 0px 10px 2px var(--primary-color);
+}
+.formHeading {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  font-family: "Roboto Slab", serif;
+}
+
+.formSection {
+  background: rgb(255, 153, 102, 0.5);
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px transparent;
+  border-radius: 0.5rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 1.1rem;
+
+  background-color: #b71540;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.footerLink a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: black;
+}
+
+footer li {
+  font-size: 1.2rem;
+}
+
+footer {
+  padding: 0 0 1rem;
+  background-color: rgb(255, 153, 102, 0.5);
+  color: white;
+  padding: 1rem;
+  border: 1px transparent;
+  border-radius: 0.5rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.creator {
+  color: var(--primary-color);
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.legacyText {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.legacyText a {
+  font-size: 0.8rem;
+}
