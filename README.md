@@ -1,9 +1,7 @@
-# Book Recommendation App
+# Is your Birthday Lucky?
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Omkar-Ghate)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Omkar-Ghate) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/Omkar-Ghate)
-
-## Confused about which book to read next? This is the perfect place to try out new genres.
 
 ## Technology Stack Used
 
