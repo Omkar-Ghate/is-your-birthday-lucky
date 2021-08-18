@@ -1,7 +1,7 @@
 import "./styles.css";
 import { useState } from "react";
-import happy from "/src/happy.svg";
-import unhappy from "/src/unhappy.svg";
+import happy from "./happy.svg";
+import unhappy from "./unhappy.svg";
 
 let dateInput = "";
 let luckyNo = 0;
