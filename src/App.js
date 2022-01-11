@@ -19,7 +19,7 @@ export default function App() {
   //state for result text and image
   const [displayResult, setDisplayResult] = useState(["", ""]);
 
-  function checkBtnHandler(e) {
+  const checkBtnHandler = (e) => {
     //to stop refreshing page on submit form
     e.preventDefault();
     //to convert the date into small strings
@@ -41,7 +41,31 @@ export default function App() {
         unhappyImgDiv
       ]);
     }
-  }
+  };
+
+  // function checkBtnHandler(e) {
+  //   //to stop refreshing page on submit form
+  //   e.preventDefault();
+  //   //to convert the date into small strings
+  //   const dateArray = dateInput.split("-");
+  //   let sum = 0;
+  //   //to access each string
+  //   dateArray.map((string) => {
+  //     //to access each number in string and add into sum
+  //     for (let i = 0; i < string.length; i++) {
+  //       sum = sum + Number(string[i]);
+  //     }
+  //   });
+  //   //check if sum divisible by lucky no.
+  //   if (sum % Number(luckyNo) === 0) {
+  //     setDisplayResult(["Hurray!!You are a lucky person!", happyImgDiv]);
+  //   } else {
+  //     setDisplayResult([
+  //       "Oops!!Your birthday is not a lucky number!",
+  //       unhappyImgDiv
+  //     ]);
+  //   }
+  // }
 
   return (
     <div className="App">
